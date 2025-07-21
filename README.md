@@ -1,26 +1,93 @@
-# AI Chatbot (Java, Desktop GUI)
+# 🤖 Java AI Chatbot
 
-## Features
-- Java-based chatbot for interactive communication
-- Uses basic NLP techniques (tokenization, keyword matching)
-- Rule-based and FAQ-trained responses
-- Simple, extendable architecture for future ML/NLP integration
-- Desktop GUI (Swing) for real-time chat
+A simple Java Swing GUI chatbot application that processes user input, responds to frequently asked questions, and provides basic rule-based interaction using NLP techniques.
 
-## How to Open in NetBeans
-1. Open Apache NetBeans 2025.
-2. Go to **File > Open Project**.
-3. Navigate to `Users/Public/Documents/AIChatbot` and select the folder.
-4. Build and run the project (Main class: `aichatbot.Main`).
+---
 
-## Project Structure
-- `src/aichatbot/Main.java` - Entry point, launches GUI
-- `src/aichatbot/Chatbot.java` - Chat logic
-- `src/aichatbot/NLPProcessor.java` - Basic NLP
-- `src/aichatbot/FAQTrainer.java` - FAQ logic
-- `src/aichatbot/ChatbotGUI.java` - Swing GUI
+## 📌 Features
 
-## Extending
-- Add more FAQs in `FAQTrainer.java`
-- Improve NLP in `NLPProcessor.java`
-- Add ML/NLP libraries for advanced features 
+🧠 **FAQ Response System**: Matches common user queries and responds intelligently.
+🔤 **NLP Processing**: Cleans and normalizes user input (lowercasing, removing punctuation).
+💬 **Rule-Based Responses**: Provides fallback replies for greetings, goodbyes, and unknown inputs.
+🖥️ **Java Swing GUI**: Interactive desktop interface for real-time chatting.
+📚 **OOP Design**: Modular classes like `Chatbot`, `FAQTrainer`, and `NLPProcessor`.
+
+---
+
+## 🖼️ Application Overview
+
+![Chatbot Screenshot](https://github.com/khaled1234kh/Java-AI-Chatbot/blob/main/screenshot.png)
+*(Replace this with your actual screenshot filename if different)*
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Java 8 or higher
+* Any Java IDE (like IntelliJ IDEA or NetBeans)
+
+### Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/khaled1234kh/Java-AI-Chatbot.git  
+cd Java-AI-Chatbot
+```
+
+Compile and run:
+
+1. Open the project in your IDE
+2. Run the `Main.java` file
+
+💡 The GUI will launch automatically via `new ChatbotGUI();`
+
+---
+
+## 🧠 How It Works
+
+User input is taken through a `JTextField`, processed via a basic NLP cleaner, and then checked against an FAQ database.
+
+* If a match is found, the FAQ response is returned
+* Otherwise, fallback rules handle greetings and unknown queries
+
+**Modular Breakdown**:
+
+* `Chatbot`: Handles overall logic
+* `FAQTrainer`: Stores and matches known questions
+* `NLPProcessor`: Normalizes input for matching
+* `ChatbotGUI`: Swing-based user interface
+* `Main`: Entry point using `SwingUtilities.invokeLater()`
+
+---
+
+## 📂 File Structure
+
+```
+Java-AI-Chatbot/
+├── aichatbot/
+│   ├── Chatbot.java
+│   ├── FAQTrainer.java
+│   ├── NLPProcessor.java
+│   ├── ChatbotGUI.java
+│   └── Main.java
+```
+
+---
+
+## 🏆 Achievements
+
+✅ Built a fully functional AI chatbot with real-time GUI
+✅ Implemented basic NLP preprocessing and response logic
+✅ Practiced modular OOP design and Java Swing development
+✅ Completed as part of CodeAlpha Internship Project
+
+---
+
+## 👨‍💻 Author
+
+**Khaled Mohamed**
+Java Developer | Passionate about AI & GUI Development
+[LinkedIn](https://www.linkedin.com/in/your-profile) • [GitHub](https://github.com/khaled1234kh)
