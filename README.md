@@ -1,4 +1,4 @@
-# 🤖 Java AI Chatbot
+<img width="1915" height="1015" alt="Screenshot 2025-07-21 163223" src="https://github.com/user-attachments/assets/9a0ad2db-4b1f-4c6c-9597-5000cc7461fd" /># 🤖 Java AI Chatbot
 
 A simple Java Swing GUI chatbot application that processes user input, responds to frequently asked questions, and provides basic rule-based interaction using NLP techniques.
 
@@ -15,7 +15,8 @@ A simple Java Swing GUI chatbot application that processes user input, responds 
 ---
 
 ## 🖼️ Application Overview
-<img width="1919" height="1079" alt="Screenshot 2025-07-21 161907" src="https://github.com/user-attachments/assets/a19bdf25-03b3-412b-b7ad-93c07c9dedeb" />
+<img width="1915" height="1015" alt="Screenshot 2025-07-21 163223" src="https://github.com/user-attachments/assets/76fa4acc-740e-49ae-8e3f-94e183fdcd7d" />
+
 
 
 ---
