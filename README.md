@@ -90,4 +90,4 @@ Java-AI-Chatbot/
 
 **Khaled Mohamed**
 Java Developer | Passionate about AI & GUI Development
-[LinkedIn](https://www.linkedin.com/in/your-profile) • [GitHub](https://github.com/khaled1234kh)
+[LinkedIn]: https://www.linkedin.com/in/khaled-mohamed-22a22a325/ • [GitHub](https://github.com/khaled1234kh)
