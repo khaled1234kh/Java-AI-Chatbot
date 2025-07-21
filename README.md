@@ -15,9 +15,8 @@ A simple Java Swing GUI chatbot application that processes user input, responds 
 ---
 
 ## 🖼️ Application Overview
+<img width="1919" height="1079" alt="Screenshot 2025-07-21 161907" src="https://github.com/user-attachments/assets/a19bdf25-03b3-412b-b7ad-93c07c9dedeb" />
 
-![Chatbot Screenshot](https://github.com/khaled1234kh/Java-AI-Chatbot/blob/main/screenshot.png)
-*(Replace this with your actual screenshot filename if different)*
 
 ---
 
